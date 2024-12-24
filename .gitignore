@@ -1,0 +1,18 @@
+# Bỏ qua thư mục node_modules (thư viện của Node.js)
+node_modules/
+
+# Bỏ qua các file cấu hình môi trường (để tránh lộ API keys, mật khẩu)
+.env
+.env.local
+.env.*.local
+
+# Bỏ qua các file log
+*.log
+
+# Bỏ qua các file IDE
+.vscode/
+.idea/
+
+# Bỏ qua các file hệ thống (MacOS, Windows)
+.DS_Store
+Thumbs.db
